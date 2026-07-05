@@ -1,0 +1,13 @@
+{
+  "name": "MaisonFlow - Planning tâches ménagères",
+  "short_name": "MaisonFlow",
+  "description": "Planning familial des tâches ménagères avec vue Gantt et synchronisation Supabase.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    { "src": "logo.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

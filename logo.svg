@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MaisonFlow">
+  <defs>
+    <linearGradient id="g" x1="80" y1="40" x2="430" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#f8fafc"/>
+  <g filter="url(#s)">
+    <path d="M96 236 256 100l160 136v156a32 32 0 0 1-32 32H128a32 32 0 0 1-32-32V236Z" fill="url(#g)"/>
+    <path d="M152 248h208v126a18 18 0 0 1-18 18H170a18 18 0 0 1-18-18V248Z" fill="white" opacity=".96"/>
+    <path d="M183 292h146" stroke="#2563eb" stroke-width="24" stroke-linecap="round"/>
+    <path d="M183 343h96" stroke="#16a34a" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="348" cy="343" r="20" fill="#16a34a"/>
+    <path d="m338 343 8 8 18-22" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
